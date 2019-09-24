@@ -1,0 +1,548 @@
+.js-account-item-field-main-comment-component {
+  margin-bottom: 10px !important;
+  margin-top: 0px !important;
+}
+
+.col-md-12 form-inline {
+  height: 80px !important;
+}
+
+.account__name {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.account-settings__item {
+  border: none;
+}
+
+.input-sm.account-item-top-panel-select {
+  height: 30px;
+}
+
+.input-sm.account-item-top-panel-select .select2-chosen, .input-sm.account-item-top-panel-select .select2-choice {
+  height: 30px;
+  padding: 0;
+}
+
+.input-sm.account-item-top-panel-plain-select {
+  padding: 0;
+}
+
+body {
+  font-size: 15px;
+}
+
+.btn-default {
+  background-color: white;
+}
+
+.w-account-settings {
+  width: 1400px;
+}
+
+.input-sm.account-item-top-panel-select {
+  font-size: 13px;
+  font-weight: 600;
+  color: #333;
+}
+
+.account-settings__item-title {
+  font-size: 13px;
+  color: #a2a2a2;
+}
+
+textarea.form-control {
+  height: 230px;
+  overflow-y: scroll;
+}
+
+.navbar-labels {
+  font-size: 100%;
+  font-weight: 800;
+}
+
+.red {
+  color: #909090;
+  opacity: .8;
+}
+
+.green {
+  color: #909090;
+  opacity: .8;
+}
+
+.account-item-field-main-comment {
+  min-height: 1px;
+  height: auto;
+  overflow-y: scroll;
+  box-shadow: 0 0 0 1px rgba(32, 33, 36, 0.2);
+  border-radius: 4px;
+}
+
+.main-content-first-buttons-line {
+  height: 1px;
+  position: absolute;
+  top: -250px;
+  right: 15px;
+}
+
+.panel:not(.feed-panel-container) .div {
+  padding: 6px 8px;
+}
+
+.panel-title {
+  font-size: 15px;
+}
+
+.panel {
+  margin-bottom: 10px;
+}
+
+
+/* Закрепленное примечание */
+
+.panel.event-note.note-feed-item-pined {
+  border: 2px solid #3c763d;
+  font-weight: 600;
+}
+
+
+/* Тени */
+
+.material-shadow {
+  box-shadow: none;
+}
+
+.panel-heading:hover {
+  box-shadow: none;
+}
+
+/* Положение Номера Проект */
+
+/* .sidebar-projects-column {
+    width: 420px;
+    position: absolute;
+    top: -120px;
+    font-size: 14px;
+    line-height: 1;
+} */
+
+
+/* Сайд меню */
+.quick-side-bar-menu {
+  background: #333;
+}
+
+.quick-side-bar-menu:hover {
+  background: #333;
+}
+
+.js-quick-side-bar-menu-item {
+  color: white;
+}
+
+body {
+  background-color: #fbfcfd;
+}
+
+.ticket-item-ticket-message {
+  overflow-y: scroll !important;
+}
+
+textarea.form-control {
+  overflow-y: scroll !important;
+  height: 320px !important;
+}
+
+.textarea-component {
+  overflow-y: scroll !important;
+}
+
+/* 
+.account__name::after {
+    content: "Донат";
+    width: 400px;
+    height: 400px;
+    background-color: brown;
+    position: absolute;
+    line-height: 12;
+    color: wheat;
+    z-index: 10;
+    top: 100px;
+    right: 800px;
+} */
+
+
+.js-task-close-modal-container .modal-header {
+  background-color: #a94442;
+  color: #f2dede;
+}
+
+.js-task-close-modal-container .modal-body {
+  background-color: #f4f8fa;
+}
+
+.js-task-close-modal-container .table.table {
+  background-color: #f4f8fa;
+}
+
+.js-task-close-modal-container textarea.form-control {
+  overflow-y: hide !important;
+  height: 120px !important;
+}
+
+.js-task-close-modal-container h4 {
+  font-weight: 700;
+}
+
+.js-task-close-modal-container {
+  -webkit-transform: translate(0, 50%);
+  -ms-transform: translate(0, 50%);
+  -o-transform: translate(0, 50%);
+  transform: translate(0, 50%);
+}
+
+.account__name {
+/* 	animation: pulse 5s infinite; */
+/*   animation: upp 1s infinite; */
+/* 	opacity: 1; */
+/* 	transition: opacity 1.5s ease-in-out; */;
+}
+
+.account__name:hover {
+  animation: pulse 2s infinite;
+  animation: upp 1s infinite;
+/* 	opacity: .9; */
+/* 	transition: opacity .15s ease-in-out; */;
+}
+
+@keyframes pulse {
+  0% {
+    color: #0f0c29;
+  }
+
+  50% {
+    color: #302b63;
+  }
+
+  100% {
+    color: #0f0c29;
+  }
+}
+
+@keyframes upp {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-3px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.side-panel-header {
+  transform: translateX(0px);
+  transition: .5s ease-in-out;
+}
+
+.side-panel-header:hover {
+/* 	animation: slide 2s; */
+  transform: translateX(10px);
+  transition: .2s;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0px);
+  }
+
+  20% {
+    transform: translateX(15px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+div[data-manager_id="201029"], div[data-manager_id="205816"] {
+  border: solid #a94442 2px;
+/*    box-shadow: 0 0 15px rgba(169, 68, 66, 0.4); */
+  font-weight: 600;
+}
+
+div[data-manager_id="201029"], div[data-manager_id="205816"]>.panel.event-task {
+  border-color: #a94442 !important;
+}
+
+.panel.event-task.event-task-important:before {
+  content: '';
+  background-color: #a94442;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+/* side-menu  */
+
+.panel-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #777;
+}
+
+.panel-info > .panel-heading {
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  background-image: none;
+}
+
+.panel {
+  margin-bottom: 6px;
+}
+
+.panel:not(.feed-panel-container) > div {
+  padding: 6px;
+}
+
+.panel-info > .panel-heading {
+  border: none;
+}
+
+.panel-info > .panel-heading {
+  color: #333;
+  font-weight: 600;
+}
+
+/* MAD FIX */
+
+.panel {
+  box-shadow: none;
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+
+.panel-heading {
+  line-height: inherit !important;
+}
+
+.col-md-12 {
+  height: 84px;
+}
+
+.col-md-9 {
+  width: 80%;
+}
+
+.col-md-3 {
+  width: 20%;
+}
+
+.panel {
+  border: none;
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+.modal-footer:after {
+  display: none;
+  content: "";
+}
+
+.modal-footer {
+    padding: 15px;
+    text-align: right;
+    height: 65px;
+    border-top: 1px solid #e5e5e5;
+}
+
+.panel.event-call {
+  border: 1px solid #f3dbf3;
+  margin-left: 20%;
+}
+
+.panel.event-email_ticket {
+  border-color: #fff3da;
+  margin-left: 20%;
+}
+
+.panel.event-call .panel-heading {
+  background-color: #fde8fd;
+  color: #9e769e;
+  line-height: inherit !important;
+}
+
+.feed-panel-icon {
+  padding: 2px 4px;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.panel.event-call .feed-panel-icon {
+  background-color: #f3d3f3;
+  margin-right: 10px;
+}
+
+.event-list .panel .panel-heading {
+  padding: 6px;
+}
+
+.outbox {
+  transform: translateX(-24%);
+}
+
+audio:hover {
+  display: inherit;
+}
+
+.call-panel-audio {
+    max-height: 30px;
+    margin-top: 5px;
+}
+
+.sm-r-margin {
+  display: none;
+}
+
+.w-account {
+  border: none;
+}
+
+.account-settings__item {
+  border-radius: 4px;
+  margin: 0;
+  padding: 0px;
+  flex-basis: 22%;
+  border: none;
+  border-style: none;
+  margin-bottom: 14px;
+  margin-right: 24px;
+}
+
+.hr-account-item-right-bar {
+  display: none;
+}
+
+.input-sm.account-item-top-panel-select {
+  width: 180px;
+}
+
+.account-item-top-panel-account-field-info {
+  display: none;
+}
+
+.w-feed-component {
+  padding: 6px;
+  background: none;
+}
+
+.event-call a {
+  color: #9e769e;
+}
+
+.js-side-panel-component {
+  background-color: transparent;
+}
+
+table.table {
+  background: transparent;
+}
+
+.w-account-settings {
+  width: 80%;
+}
+
+.panel.event-email_ticket .feed-panel-icon {
+  background-color: #f5efd3;
+  margin-right: 6px;
+  color: #c09d66;
+  font-size: 12px;
+}
+
+.panel-heading .email-recipients {
+  color: #d4cca3;
+  font-size: 12px;
+}
+
+.email-recipients-seen {
+  color: #d4cca3;
+  font-size: 12px;
+}
+
+.event-email_ticket .recipient-seen-active {
+  color: #d4cca3;
+  font-weight: bold;
+  padding-right: 0;
+}
+
+.js-side-panel-body textarea.form-control {
+  height: 320px !important;
+}
+
+.feed-control-panel-btn-filter {
+  font-size: 12px !important;
+  font-weight: 700 !important;
+}
+
+.feed-control-panel-btn-filter:not(.active) {
+  background-color: white !important;
+}
+
+.feed-control-panel-btn-note {
+  background-color: #dff0d8 !important;
+}
+
+.feed-control-panel-btn-task {
+  background-color: #f2dede !important;
+}
+
+.feed-control-panel-btn-call-account {
+  color: #9e6f9e !important;
+}
+
+.feed-control-panel-btn-call-account {
+  background-color: #fde8fd !important;
+}
+
+.feed-control-panel-btn-call-account:hover {
+  background: #e0e0e0;
+  border-color: #f3dbf3;
+  color: #9e6f9e;
+}
+
+.feed-control-panel-btn-call-account.active {
+  border-color: #f3dbf3 !important;
+  color: #9e6f9e !important;
+}
+
+.feed-control-panel-btn-email-ticket {
+  background-color: #fcf8e3 !important;
+}
+
+.btn-default .active {
+  box-shadow: inset 1px 2px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: none;
+  border-bottom: none;
+}
+
+.feed-control-panel-btn-filter .btn {
+  border: none;
+}
+ 
+.uo1dtrqs6pn {
+    height: 100px !important;
+}
+
+.panel-primary .panel-heading {
+  background-color: #f5f5f5 !important;
+  background-image: none !important;
+  border-bottom: none !important;
+}
